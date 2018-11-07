@@ -1,0 +1,22 @@
+SOURCEID	DOCUMENTID	FILENAME	ATTACHMENTID	SHARE_ID	FOLDER_PATH	VERSION	CREATED	CREATED_BY	CHECKOUT_STATUS	CHECKOUT_MACHINE	LEGACY_CHECKOUT_PATH	CHECKOUT_BY
+1	ADTC36809	R10.5/1 - Ookla First and Third Party.xlsx	1	null	/R10.5/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36809	R10.5/R10.5 - Reporting_Approved Billing Lists.zip	2	null	/R10.5/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/2_Contact_ Vakhtang Khunchukashvili _ Salesforce - Unlimited Edition.pdf	3	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/3_Contact_ Michael Shope _ Salesforce - Unlimited Edition.pdf	4	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/4_KCOM Pardot NG Renewal Form- Pardot.pdf	5	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/5_Pardot Form Handler_ NetGauge Renewal Form - Luis.garcia@libertypr.com.pdf	6	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/6_Media Commerce Pardot NG Renewal Form- Pardot.pdf	7	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/7_Fwd_ Pardot Form Handler_ NetGauge Order Form - aung@netxcel.com.sg.pdf	8	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/8_Novel PSH T's and C's.pdf	9	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/9_Re_ Pardot Form Handler_ NetGauge Order Form - jayson@corp.peakinter.net.pdf	10	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/10_Pardot Form Handler_ NetGauge Order Form - joseph.annadass@petronas.com.my.pdf	11	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/11_Contact_ Greg Onorato _ Salesforce - Unlimited Edition.pdf	12	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/12_Contact_ David Hinkle _ Salesforce - Unlimited Edition.pdf	13	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/13_Contact_ David Herlovich _ Salesforce - Unlimited Edition.pdf	14	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/14_Pardot Form Handler_ NetGauge Order Form - randy.valentine@speedconnect.com.pdf	15	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/15_Contact_ Robert Moulder _ Salesforce - Unlimited Edition.pdf	16	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/16_Contact_ Ben Stineman _ Salesforce - Unlimited Edition.pdf	17	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Support/17_Contact_ Boaz Lowenstein _ Salesforce - Unlimited Edition.pdf	18	null	/Ookla Tech Licensing T&Cs/Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36835	Ookla Tech Licensing T&Cs/Testing Workpaper/1 - Detail Testing_R02.xlsx	19	null	/Ookla Tech Licensing T&Cs/Testing Workpaper/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36806	R01.03 Support/0 IGN Sample Selection_8.11.2016.zip	20	null	/R01.03 Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null
+1	ADTC36806	R01.03 Support/1 R01.3 Contacts.zip	21	null	/R01.03 Support/	0	2018/10/24 10:35:54.054	user	0	null	null	null

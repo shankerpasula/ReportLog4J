@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+		DOCTYPE mapping PUBLIC "-//Paisley Consulting//DTD RNJ Lookup Config 1.0//EN"
+		"http://www.paisleyconsulting.com/dtd/lookupConfig.dtd"
+	-->
+          
+<!DOCTYPE mapping [<!-- The root element is the mapping -->
+
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- mapping element definition      -->
+<!-- +++++++++++++++++++++++++++++++ -->
+
+<!ELEMENT mapping
+   (config,groups)>
+   
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- config element definition       -->
+<!-- +++++++++++++++++++++++++++++++ -->   
+
+<!ELEMENT config
+   (globalProperties?, lookupModule+)>
+   
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- globalProperties definition     -->
+<!-- +++++++++++++++++++++++++++++++ -->   
+
+<!ELEMENT globalProperties
+   (nameValuePair+)>    
+
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- lookupModule element definition -->
+<!-- +++++++++++++++++++++++++++++++ -->   
+
+<!ELEMENT lookupModule
+   (domain*)>
+   
+   <!ATTLIST lookupModule
+	name CDATA #REQUIRED
+	className CDATA #REQUIRED>
+   
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- domain element definition       -->
+<!-- +++++++++++++++++++++++++++++++ -->   
+
+<!ELEMENT domain
+   (nameValuePair+)> 
+   
+   <!ATTLIST domain
+	name CDATA #REQUIRED>
+   
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- nameValuePair element definition-->
+<!-- +++++++++++++++++++++++++++++++ -->   
+
+<!ELEMENT nameValuePair
+   EMPTY>
+   <!ATTLIST nameValuePair
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED>
+   
+   
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- group element definition        -->
+<!-- +++++++++++++++++++++++++++++++ -->
+
+<!ELEMENT groups
+   (group+)>
+
+<!ELEMENT group
+   (roles?, searchBases?)>
+
+	<!ATTLIST group
+		name 			CDATA #REQUIRED
+		id			CDATA #REQUIRED
+		groupBaseDN		CDATA #REQUIRED
+		moduleName		CDATA #REQUIRED
+		lookupDomain		CDATA #REQUIRED
+		isEmailOnlyGroup 	CDATA #IMPLIED
+		>
+
+
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- role   element definition       -->
+<!-- +++++++++++++++++++++++++++++++ -->
+
+<!ELEMENT roles
+   (role+)>
+
+<!ELEMENT role
+   EMPTY>
+	<!ATTLIST role
+	name CDATA #REQUIRED>
+
+<!ELEMENT searchBases
+   (searchBase+)>
+
+<!ELEMENT searchBase
+   EMPTY>
+	<!ATTLIST searchBase
+	searchBaseDN CDATA #REQUIRED>
+
+]>
+
+<mapping>
+
+	<config>
+
+		<globalProperties>
+			<nameValuePair name="displayGroupDNDropdown" value="false"/>
+		</globalProperties>
+
+		<!-- The LDAPLookupModule  - com.paisley.rnj.security.lookup.PenLdapLookupModule -->
+		<!-- This lookup module is used when group membership is determined by static LDAP Groups -->
+		<!-- rather than dynamic LDAP groups. -->
+		<lookupModule name="LDAPLookupModule" className="com.paisley.rnj.security.lookup.PenLdapLookupModule">
+			<!-- Non-domain specific properties -->
+			<domain name="GENERAL_PROPERTIES">
+				<nameValuePair name="LdapContextFactory" value="com.sun.jndi.ldap.LdapCtxFactory"/>
+			</domain>
+
+			<domain name="OAI">
+
+				<!-- Key: LdapHost   								-->
+				<!-- Defines the LDAP Host to access 						-->
+				<nameValuePair name="LdapHost" value="blrldap01.int.accelus.com"/>
+
+				<!-- Key: LdapPort   								-->
+				<!-- Defines the port to access "LdapHost" on.					-->
+				<!-- 	Default: non-SSL - 389, SSL - 636					-->
+				<nameValuePair name="LdapPort" value="1391"/>
+
+				<!-- Failover of LDAP Host should be performed through an LDAP Load Balancer.	-->
+
+				<!-- Key: DMUsername								-->
+				<!-- Defines the full Distinguished Name for LDAP User ID that will be used to  -->
+				<!-- perform lookups from the application.					-->
+				<nameValuePair name="DMUsername" value="uid=Paisley,ou=ServiceAccounts,dc=paisley,dc=com"/>
+
+				<!-- Key: DMPassword								-->
+				<!-- Defines the password for the "DMUsername" ID.  Depending on the encryption	-->
+				<!-- settings defined in the application.properties files, this password may  	-->
+				<!-- get encrypted when the application server is started.			-->
+				<nameValuePair name="DMPassword" value="password"/>
+
+				<!-- Key: uniqueIDType								-->
+				<!-- Defines the LDAP Attribute used to uniquely identify users.		-->
+				<!-- 	Defaults: SunOne - uid, Active Directory - sAMAccountName, 		-->
+				<!--		  Novell eDirectory - cn					-->
+				<nameValuePair name="uniqueIDType" value="uid"/>
+
+				<!-- Key: displayNameType							-->
+				<!-- Defines the LDAP attribute displayed within the application for users.     -->
+				<!-- 	Defaults: SunOne - cn, Active Directory - cn, 				-->
+				<!--		  Novell eDirectory - cn					-->
+				<nameValuePair name="displayNameType" value="cn"/>
+
+				<!-- Key: FullDNForUserAttribute						-->
+				<!-- Defines the LDAP attribute identifying full LDAP path to user objects.	-->
+				<!-- 	Defaults: SunOne - entrydn, Active Directory - distinguishedName,	-->
+				<!--		  Novell eDirectory - cn					-->
+				<nameValuePair name="FullDNForUserAttribute" value="entryDN"/>
+
+				<!-- Key: GroupMembersAttribute							-->
+				<!-- Defines the LDAP attribute on the group indicating who the members of that	-->
+				<!-- group are.									-->
+				<!-- 	Defaults: SunOne - uniqueMember, Active Directory - member,		-->
+				<!--		  Novell eDirectory - member					-->
+				<nameValuePair name="GroupMembersAttribute" value="uniqueMember"/>
+
+				<!-- Key: SearchBase								-->
+				<!-- Defines the lowest branch in the directory such that all users that need	-->
+				<!-- to access the application and all the application groups can be found	-->
+				<!-- under this branch.								-->
+				<nameValuePair name="SearchBase" value="ou=People,ou=QA,dc=paisley,dc=com"/>
+
+				<!-- Key: followReferrals							-->
+				<!-- Defines whether referrals are used within the application groups.		-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: false								-->
+				<nameValuePair name="followReferrals" value="false"/>
+
+				<!-- Key: sslEnabled								-->
+				<!-- Defines whether the LDAP queries should use SSL.				-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: false								-->
+				<nameValuePair name="sslEnabled" value="false"/>
+
+	<!--
+		Using the Paisley Socket factory enables a custom truststore location for LDAPS communication
+		between the application server and the LDAP Server - to use this socket factory - you need to
+		specify two configurations: "paisley.ldap.ssl.truststoreLocation" : the filepath location of the
+		truststore "paisley.ldap.ssl.truststorePassword" : the truststore password
+	-->
+				<nameValuePair name="java.naming.ldap.factory.socket"
+					value="com.paisley.rnj.security.lookup.LdapSslSocketFactory"/>
+
+				<!-- Key: ldapPagingEnabled							-->
+				<!-- Defines whether paging is enabled if you are using Active Directory.	-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: false								-->
+				<nameValuePair name="ldapPagingEnabled" value="false"/>
+
+				<!-- Key: appendDomainForDisplay						-->
+				<!-- Defines whether '/<<YourDomainName>>' will be appended to the 		-->
+				<!-- username that is displayed in the application.				-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: true								-->
+				<nameValuePair name="appendDomainForDisplay" value="true"/>
+
+				<!-- Key: userFilter  														-->
+				<!-- Defines an filter that will be used to return only users.	If this 	-->
+				<!-- value is populated, the value of "userObjectClass" is ignored.         -->
+				<!-- Note that you need to user '&amp;' in the place of '&' because its an  -->
+				<!-- XML special character.                                                 -->
+				<!--    Example: 															-->
+				<!--	value="(&amp;(objectclass=person)(!(nsRoleDN=cn=nsmanageddisabled*)))"-->
+				<nameValuePair name="userFilter" value="(objectclass=person)"/>
+
+				<!-- Key: groupFilter  														-->
+				<!-- Defines an filter that will be used to return only groups.	If this 	-->
+				<!-- value is populated, the value of "groupObjectClass" is ignored.        -->
+				<!-- Note that you need to user '&amp;' in the place of '&' because its an  -->
+				<!-- XML special character.                                                 -->
+				<!-- Example:																-->
+				<!--  value="(&amp;(objectclass=groupOfUniqueNames)(!(nsRoleDN=cn=nsmanageddisabled*)))" -->
+				<nameValuePair name="groupFilter" value="(objectclass=groupOfUniqueNames)"/>
+				
+				<!-- Key: searchScope                                                       -->
+				<!-- The search scope used for the SearchControl.                           -->
+				<!-- see javax.naming.directory.SearchControl                               -->
+				<!-- Options: OBJECT_SCOPE / SUBTREE_SCOPE / ONELEVEL_SCOPE                 -->
+				<!--	Default: OBJECT_SCOPE				                                -->
+				<nameValuePair name="searchScope" value="SUBTREE_SCOPE"/>
+
+			</domain>
+
+		</lookupModule>
+
+
+		<!-- The DynamicGroupsLookupModule  - com.paisley.rnj.security.lookup.DynamicGroupsLookupModule. -->
+		<!-- This lookup module is used when group membership is determined by dynamic LDAP Groups -->
+		<!-- rather than static LDAP groups. -->
+		<lookupModule name="DynamicGroupsLookupModule" className="com.paisley.rnj.security.lookup.DynamicGroupsLookupModule">
+			<domain name="GENERAL_PROPERTIES">
+				<nameValuePair name="LdapContextFactory" value="com.sun.jndi.ldap.LdapCtxFactory"/>
+			</domain>
+
+			<domain name="OAI_Dynamic">
+
+				<!-- Key: LdapHost   								-->
+				<!-- Defines the LDAP Host to access 						-->
+				<nameValuePair name="LdapHost" value="eagcloudqaldap01.int.accelus.com"/>
+
+				<!-- Key: LdapPort   								-->
+				<!-- Defines the port to access "LdapHost" on.					-->
+				<!-- 	Default: non-SSL - 389, SSL - 636					-->
+				<nameValuePair name="LdapPort" value="1391"/>
+
+				<!-- Failover of LDAP Host should be performed through an LDAP Load Balancer.	-->
+
+				<!-- Key: DMUsername								-->
+				<!-- Defines the full Distinguished Name for LDAP User ID that will be used to  -->
+				<!-- perform lookups from the application.					-->
+				<nameValuePair name="DMUsername" value="uid=Paisley,ou=ServiceAccounts,dc=paisley,dc=com"/>
+
+				<!-- Key: DMPassword								-->
+				<!-- Defines the password for the "DMUsername" ID.  Depending on the encryption	-->
+				<!-- settings defined in the application.properties files, this password may  	-->
+				<!-- get encrypted when the application server is started.			-->
+				<nameValuePair name="DMPassword" value="password"/>
+
+				<!-- Key: uniqueIDType								-->
+				<!-- Defines the LDAP Attribute used to uniquely identify users.		-->
+				<!-- 	Defaults: SunOne - uid, Active Directory - sAMAccountName, 		-->
+				<!--		  Novell eDirectory - cn					-->
+				<nameValuePair name="uniqueIDType" value="uid"/>
+
+				<!-- Key: displayNameType							-->
+				<!-- Defines the LDAP attribute displayed within the application for users.     -->
+				<!-- 	Defaults: SunOne - cn, Active Directory - cn, 				-->
+				<!--		  Novell eDirectory - cn					-->
+				<nameValuePair name="displayNameType" value="cn"/>
+
+				<!-- Key: FullDNForUserAttribute						-->
+				<!-- Defines the LDAP attribute identifying full LDAP path to user objects.	-->
+				<!-- 	Defaults: SunOne - entrydn, Active Directory - distinguishedName,	-->
+				<!--		  Novell eDirectory - cn					-->
+				<nameValuePair name="FullDNForUserAttribute" value="entryDN"/>
+
+				<!-- Key: GroupMembersAttribute							-->
+				<!-- Defines the LDAP attribute on the group indicating who the members of that	-->
+				<!-- group are.									-->
+				<!-- 	Defaults: SunOne - uniqueMember, Active Directory - member,		-->
+				<!--		  Novell eDirectory - member					-->
+				<nameValuePair name="GroupMembersAttribute" value="uniqueMember"/>
+
+				<!-- Key: SearchBase								-->
+				<!-- Defines the lowest branch in the directory such that all users that need	-->
+				<!-- to access the application and all the application groups can be found	-->
+				<!-- under this branch.								-->
+				<nameValuePair name="SearchBase" value="ou=People,ou=QA,dc=paisley,dc=com"/>
+
+				<!-- Key: followReferrals							-->
+				<!-- Defines whether referrals are used within the application groups.		-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: false								-->
+				<nameValuePair name="followReferrals" value="false"/>
+
+				<!-- Key: sslEnabled								-->
+				<!-- Defines whether the LDAP queries should use SSL.				-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: false								-->
+				<nameValuePair name="sslEnabled" value="false"/>
+
+				<!--
+					Using the Paisley Socket factory enables a custom truststore location for LDAPS communication between the
+					application server and the LDAP Server - to use this socket factory - you need to specify two poperties
+					in the - Application.properties file : "paisley.ldap.ssl.truststoreLocation" : the filepath location of
+					the truststore "paisley.ldap.ssl.truststorePassword" : the truststore password
+				-->
+				<!--
+					<nameValuePair name="java.naming.ldap.factory.socket"
+					value="com.paisley.rnj.security.lookup.LdapSslSocketFactory"/>
+				-->
+
+				<!-- Key: ldapPagingEnabled							-->
+				<!-- Defines whether paging is enabled if you are using Active Directory.	-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: false								-->
+				<nameValuePair name="ldapPagingEnabled" value="false"/>
+
+				<!-- Key: appendDomainForDisplay						-->
+				<!-- Defines whether '/<<YourDomainName>>' will be appended to the 		-->
+				<!-- username that is displayed in the application.				-->
+				<!-- 	Options: true / false							-->
+				<!--	Default: true								-->
+				<nameValuePair name="appendDomainForDisplay" value="true"/>
+
+				<!-- Key: userObjectClass							-->
+				<!-- Defines an optional filter that will be used to return only users.		-->
+				<!-- 	Example: Blank value will return all objects where (objectclass=*)	-->
+				<!-- 		 "person" will retun all objects where (objectclass=person)	-->
+				<!--	Default: Blank								-->
+				<nameValuePair name="userObjectClass" value=""/>
+
+				<!-- Key: groupObjectClass							-->
+				<!-- Defines an optional filter that will be used to return only groups.	-->
+				<!-- 	Example: Blank value will return all objects where (objectclass=*)	-->
+				<!-- 		 "groupsofuniquenames" will retun all objects where 		-->
+				<!--		 (objectclass=groupofuniquenames)				-->
+				<!--	Default: Blank								-->
+				<nameValuePair name="groupObjectClass" value=""/>
+
+				<!-- Key: searchScope                                                       -->
+				<!-- The search scope used for the SearchControl.                           -->
+				<!-- see javax.naming.directory.SearchControl                               -->
+				<!-- Options: OBJECT_SCOPE / SUBTREE_SCOPE / ONELEVEL_SCOPE                 -->
+				<!--	Default: OBJECT_SCOPE				                                -->
+				<nameValuePair name="searchScope" value="OBJECT_SCOPE"/>
+			</domain>
+
+		</lookupModule>
+
+
+		<lookupModule name="OfflineLookupModule" className="com.paisley.rnj.security.lookup.OfflineLookupModule">
+		</lookupModule>
+
+	</config>
+
+	<groups>
+
+		<!--This is an example of a Dynamic Group.  When using Dynamic groups, the groupBaseDN -->
+		<!-- is actually the filter that defines that dynamic group.  Make sure that the enclosing -->
+		<!-- parenthesis are surrounding the filter.  Standard LDAP syntax is used for the filter. -->
+		<!-- The other difference with dynamic groups is that the <searchBase> elements are not -->
+		<!-- necessary in the <group> element.  The search base from the <domain> element is used -->
+		<!-- instead.  -->
+		<!--
+			<group name="ERM_Dynamic" id="1" groupBaseDN="(uid=ERM.Role*)" lookupDomain="OAI_Dynamic"
+			moduleName="DynamicGroupsLookupModule" > <roles> <role name="ERM"/> </roles> </group>
+		-->
+
+		<group name="User" id="01" groupBaseDN="cn=USER,ou=Groups,ou=QA,dc=paisley,dc=com" lookupDomain="OAI"
+			moduleName="LDAPLookupModule">
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Limited User" id="02" groupBaseDN="cn=LIMITEDUSER,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="LIMITEDUSER"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="ERM" id="04" groupBaseDN="cn=ERM,ou=Groups,ou=QA,dc=paisley,dc=com" lookupDomain="OAI"
+			moduleName="LDAPLookupModule">
+			<roles>
+				<role name="ERM"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Monitor" id="05" groupBaseDN="cn=MONITOR,ou=Groups,ou=QA,dc=paisley,dc=com" lookupDomain="OAI"
+			moduleName="LDAPLookupModule">
+			<roles>
+				<role name="MONITOR"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Maintain" id="06" groupBaseDN="cn=MAINTAIN,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="MAINTAIN"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Translator" id="07" groupBaseDN="cn=TRANSLATOR,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="TRANSLATOR"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="SNAP" id="08" groupBaseDN="cn=SNAP,ou=Groups,ou=QA,dc=paisley,dc=com" lookupDomain="OAI"
+			moduleName="LDAPLookupModule">
+			<roles>
+				<role name="SNAP"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Control Tester" id="09" groupBaseDN="cn=CONTROLTESTER,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="CONTROLTESTER"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Audit Maintain" id="11" groupBaseDN="cn=AUDITMAINTAIN,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="AUDITMAINTAIN"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Audit Monitor" id="12" groupBaseDN="cn=AUDITMONITOR,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="AUDITMONITOR"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Audit Scheduler" id="14" groupBaseDN="cn=AUDITSCHEDULER,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="AUDITSCHEDULER"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Risk Maintain" id="15" groupBaseDN="cn=RISKMAINTAIN,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="RISKMAINTAIN"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Audit Admin" id="16" groupBaseDN="cn=AUDITADMIN,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="AUDITADMIN"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Business Risk Assessment" id="17"
+			groupBaseDN="cn=BUSINESSRISKASSESSMENT,ou=Groups,ou=QA,dc=paisley,dc=com" lookupDomain="OAI"
+			moduleName="LDAPLookupModule">
+			<roles>
+				<role name="BUSINESSRISKASSESSMENT"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Audit Risk Assessment" id="18" groupBaseDN="cn=AUDITRISKASSESSMENT,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="AUDITRISKASSESSMENT"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Auditor" id="19" groupBaseDN="cn=AUDITOR,ou=Groups,ou=QA,dc=paisley,dc=com" lookupDomain="OAI"
+			moduleName="LDAPLookupModule">
+			<roles>
+				<role name="AUDITOR"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Org Maintain" id="20" groupBaseDN="cn=ORGMAINTAIN,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="ORGMAINTAIN"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="System Administration" id="21" groupBaseDN="cn=SYSTEMADMIN,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="SYSTEMADMIN"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Issue AP Close" id="22" groupBaseDN="cn=ISSUEAPCLOSE,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="ISSUEAPCLOSE"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="Compliance" id="23" groupBaseDN="cn=COMPLIANCE,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="COMPLIANCE"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+		<group name="ERM_group" id="24" groupBaseDN="cn=ERM_group,ou=Groups,ou=QA,dc=paisley,dc=com"
+			lookupDomain="OAI" moduleName="LDAPLookupModule">
+			<roles>
+				<role name="ERM"/>
+			</roles>
+			<searchBases>
+				<searchBase searchBaseDN="ou=People,ou=QA,dc=paisley,dc=com"/>
+			</searchBases>
+		</group>
+
+	</groups>
+
+</mapping>

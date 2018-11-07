@@ -1,0 +1,111 @@
+INFO : 17-09-26 13:58:18 system - SystemOption: System specified as node ID = 4095
+INFO : 17-09-26 13:58:18 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-09-26 13:58:22 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaent17, name=blrnavqaent17, url==jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-09-26 14:00:35 system - SystemOption: System specified as node ID = 4095
+INFO : 17-09-26 14:00:35 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-09-26 14:00:35 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaent17, name=blrnavqaent17, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-09-26 14:00:43 BootstrapManager - Invoking bootstrap modules
+INFO : 17-09-26 14:00:43 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-09-26 14:00:43 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-09-26 14:00:43 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-09-26 14:00:43 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-09-26 14:00:43 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-09-26 14:00:45 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-09-26 14:00:45 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-09-26 14:00:52 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-09-26 14:00:52 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-09-26 14:00:52 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-10-30 13:31:28 system - SystemOption: System specified as node ID = 4095
+INFO : 17-10-30 13:31:28 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-10-30 13:31:32 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaent17, name=blrnavqaent17, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 09:50:01 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-07 09:50:01 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-07 09:50:02 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 09:50:04 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-07 09:50:04 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-07 09:50:04 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-07 09:50:04 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-07 09:50:04 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-07 09:50:04 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-07 09:50:07 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-07 09:50:07 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 09:50:10 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 09:50:10 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-07 09:50:10 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-07 10:13:57 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-07 10:13:57 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-07 10:13:58 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 10:14:01 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-07 10:14:01 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-07 10:14:01 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-07 10:14:01 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-07 10:14:01 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-07 10:14:01 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-07 10:14:03 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-07 10:14:03 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:14:07 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:14:07 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-07 10:14:07 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-07 10:22:46 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-07 10:22:46 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-07 10:22:47 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 10:22:50 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-07 10:22:50 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-07 10:22:50 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-07 10:22:50 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-07 10:22:50 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-07 10:22:50 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-07 10:22:52 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-07 10:22:52 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:22:56 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:22:56 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-07 10:22:56 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-07 10:30:35 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-07 10:30:35 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-07 10:30:36 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 10:30:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-07 10:30:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-07 10:30:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-07 10:30:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-07 10:30:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-07 10:30:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-07 10:30:41 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-07 10:30:41 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:30:44 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:30:44 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-07 10:30:44 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-07 10:32:36 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-07 10:32:36 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-07 10:32:36 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 10:32:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-07 10:32:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-07 10:32:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-07 10:32:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-07 10:32:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-07 10:32:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-07 10:32:41 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-07 10:32:41 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:32:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 10:32:45 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-07 10:32:45 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-07 15:23:37 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-07 15:23:37 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-07 15:23:42 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-07 15:23:49 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-07 15:23:49 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-07 15:23:49 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-07 15:23:49 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-07 15:23:49 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-07 15:23:49 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-07 15:23:51 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-07 15:23:51 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 15:23:58 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-07 15:23:58 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-07 15:23:58 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.

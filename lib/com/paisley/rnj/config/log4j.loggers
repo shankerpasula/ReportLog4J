@@ -1,0 +1,889 @@
+#
+# Have the rootLogger entry commented out if the application server being deployed to defines a log4J
+# root logger in its startup.  The following should be helpful guidelines in determining this.
+#		JBOSS -> Have commented out
+#		WSAD -> Have uncommented
+#		Websphere -> Have uncommented
+#		WebLogic -> Have commented out
+#
+#log4j.rootLogger=error, stdout
+
+# Uncomment the following line to get information about how log4j is parsing this file
+#log4j.debug=true
+
+#
+# Defines the root logging value for paisley source tree.  Always keep as error, unless lots of
+# log information is desired.
+#
+log4j.logger.com.paisley=warn, file_output, stdout
+
+#
+# Logger for all startup servlets (StartServer, ArchiveStartup and ReportingStartup)
+#
+log4j.logger.com.paisley.rnj.startup=info
+log4j.logger.com.paisley.foundation.bootstrap=info
+
+#
+# This disables log output for the org.apache classes (which
+# spit out tons of debug messages and fill up the logs).
+#
+log4j.logger.org.apache.commons.digester=warn
+log4j.logger.org.apache.commons.beanutils=warn
+log4j.logger.org.apache=warn
+
+# Set the following property to debug instead of error to log *.xs file XML output.
+#log4j.logger.com.paisley.XMLLog=debug,xml_output
+
+#
+#Helpful loggers for developer debugging 
+#
+
+#log4j.logger.com.paisley.rnj.common.util.SystemConfiguration=info      # Get information about null session contexts
+#log4j.logger.com.paisley.rnj.common.valueholder.RNJSessionContext=info
+#log4j.logger.com.paisley.rnj.common.resources.ResourceLocator=debug    # Info about loading system resources
+
+#
+#	Loggers related to secuirty vulnerablities. 
+#
+log4j.logger.com.paisley.rnj.common.util.SafeHttpServletResponse=warn
+
+#
+#  Logger for AuditCopy
+#
+#log4j.logger.com.paisley.aaj.audit.copy.AuditCopier=debug
+	 
+#
+# Logger for Audit
+#
+#log4j.logger.com.paisley.aaj.audit.daoimpl.AuditDAOImpl=debug
+#log4j.logger.com.paisley.aaj.audit.service.AuditService=debug
+ 	 
+#
+#  Logger for Audit Program
+#
+#log4j.logger.com.paisley.aaj.audit.daoimpl.AuditProgramDAOImpl=debug
+#log4j.logger.com.paisley.aaj.audit.service.AuditProgramService=debug
+
+#
+#  Logger for Work paper
+#
+#log4j.logger.com.paisley.aaj.auditDocument.daoimpl.WorkPaperDAOImpl=debug
+
+#
+#  Logger for AuditAdmin
+#
+#log4j.logger.com.paisley.aaj.auditoradmin.daoimpl.AuditorAdminDAOImpl=debug
+#log4j.logger.com.paisley.aaj.auditoradmin.daoimpl.AuditorCertificationDAOImpl=debug
+	 	 
+#
+#  Logger for Booking bootstrap
+#
+#log4j.logger.com.paisley.aaj.bookings.bootstrap.BookingsBootstrap=debug
+#log4j.logger.com.paisley.aaj.bookings.bootstrap.BookingsBootstrapRunner=debug
+
+#
+#  Logger for Change history bootstrap
+#
+#log4j.logger.com.paisley.aaj.history.ChangeHistoryBootstrap=debug
+ 	 
+#
+#  Logger for Boot Strap Manager and Run Once Bootstrap
+#
+#log4j.logger.com.paisley.foundation.bootstrap.BootstrapManager=debug
+#log4j.logger.com.paisley.foundation.bootstrap.RunOnceBootstrap=debug
+	 	 
+#
+# Logger for Logging Bootstrap
+#
+#log4j.logger.com.paisley.foundation.logging.LoggingBootstrap=debug 
+
+#
+# Logger for Patch Tool Bootstrap
+#
+#log4j.logger.com.paisley.foundation.patchtool.PatchToolBootstrap=debug
+
+#
+# Logger for Certification Bootstrap
+#
+#log4j.logger.com.paisley.framework.signoffs.bootstrap.CertificationBootstrapRunner=debug
+#log4j.logger.com.paisley.framework.signoffs.bootstrap.CertificationBootstrap=debug
+
+#
+#  Logger for Checklist
+#
+#log4j.logger.com.paisley.aaj.checklist.daoimpl.ChecklistDAOImpl=debug
+#log4j.logger.com.paisley.aaj.checklist.daoimpl.StandardChecklistDAOImpl=debug
+#log4j.logger.com.paisley.aaj.checklist.service.ChecklistService=debug
+
+#
+#  Logger for expense report
+#
+#log4j.logger.com.paisley.aaj.expensereport.daoimpl.ExpenseReportActivityDAOImpl=debug
+#log4j.logger.com.paisley.aaj.expensereport.daoimpl.ExpenseReportDAOImpl=debug
+
+#
+#  Logger for Owner detail
+#
+#log4j.logger.com.paisley.aaj.security.daoimpl.OwnerDAOImpl=debug
+#log4j.logger.com.paisley.aaj.security.service.OwnerService=debug
+
+#
+#  Logger for offline
+#
+#log4j.logger.com.paisley.aaj.synchronization.command.BaseSyncCommand=debug
+#log4j.logger.com.paisley.aaj.synchronization.daoimpl.ReplicaDAOImpl=debug
+#log4j.logger.com.paisley.aaj.synchronization.daoimpl.ReplicaSyncStateDAOImpl=debug
+#log4j.logger.com.paisley.aaj.synchronization.daoimpl.ReplicationSelectionDAOImpl=debug
+#log4j.logger.com.paisley.aaj.synchronization.daoimpl.SyncObjectProblemItemDAOImpl=debug
+#log4j.logger.com.paisley.aaj.synchronization.daoimpl.SyncProblemDAOImpl=debug
+#log4j.logger.com.paisley.aaj.synchronization.PayloadFragment=debug
+#log4j.logger.com.paisley.aaj.synchronization.queue.service.SyncQueueThrottled=debug
+#log4j.logger.com.paisley.aaj.synchronization.QueueInputStream=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.ChangeHistoryReplicationService=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.ChangeHistorySyncServiceBean=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.document.DocumentReplicationServiceBean=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.document.DocumentSynchronizableObject=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.queuemsg.OfflineRequestCaptureHandler=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.queuemsg.SyncStatusHandler=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.ReplicationSelectionService=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.ReplicationServiceBean=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.StandardLibrarySyncFilter=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.SyncClientWorker=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.SyncProblemService=debug
+#log4j.logger.com.paisley.aaj.synchronization.service.SyncServiceBean=debug
+#log4j.logger.com.paisley.aaj.synchronization.valueholder.document.SyncDocumentSet=debug
+#log4j.logger.com.paisley.aaj.synchronization.valueholder.QueueObject=debug
+#log4j.logger.com.paisley.aaj.sync.problem.action.SyncProblemAction=debug
+#log4j.logger.com.paisley.aaj.security.daoimpl.ReplicaConfigDAOImpl=debug
+
+#
+#  Logger for Time Reporting
+#
+#log4j.logger.com.paisley.aaj.timereporting.daoimpl.TimeReportingDAOImpl=debug
+
+#
+#  Logger for for all document type
+#
+#log4j.logger.com.paisley.compliance.daoimpl.ComplianceProgramTestDAOImpl=debug
+#log4j.logger.com.paisley.compliance.daoimpl.LawRegulationDAOImpl=debug
+#log4j.logger.com.paisley.compliance.daoimpl.OrgSpecificComplianceProgramDAOImpl=debug
+#log4j.logger.com.paisley.compliance.daoimpl.PolicyProcedureDAOImpl=debug
+#log4j.logger.com.paisley.compliance.service.AssessmentsServiceBean=debug
+#log4j.logger.com.paisley.compliance.service.ComplianceProgramTestService=debug
+#log4j.logger.com.paisley.compliance.service.LawRegulationService=debug
+#log4j.logger.com.paisley.compliance.service.OrgSpecificComplianceProgramService=debug
+#log4j.logger.com.paisley.compliance.service.PolicyProcedureService=debug
+#log4j.logger.com.paisley.compliance.service.RegulatoryServiceBean=debug
+#log4j.logger.com.paisley.compliance.valueholder.ComplianceProgramTest=debug
+
+#
+#  Logger for fault and exception
+#
+#log4j.logger.com.paisley.core.Fatal=debug
+#log4j.logger.com.paisley.core.FaultException=debug\
+#log4j.logger.com.paisley.foundation.exception.ExceptionToolkit=debug
+#log4j.logger.com.paisley.rnj.exception.ForbiddenRequestException=debug
+
+#
+#  Logger for Enterprise Risk
+#
+#log4j.logger.com.paisley.erm.daoimpl.EnterpriseRiskDAOImpl=debug
+#log4j.logger.com.paisley.erm.daoimpl.ObjectiveDAOImpl=debug
+#log4j.logger.com.paisley.erm.action.ERMContextBaseAction=debug
+#log4j.logger.com.paisley.erm.action.ERMContextCloseAction=debug
+
+
+#
+#  Logger for Agent Threads
+#
+#log4j.logger.com.paisley.foundation.agent.AgentThread=debug
+#log4j.logger.com.paisley.foundation.background.Background=debug
+#log4j.logger.com.paisley.foundation.background.BackgroundThread=debug
+#log4j.logger.com.paisley.foundation.background.BackgroundThreadGroup=debug
+#log4j.logger.com.paisley.foundation.parallel.pipeline.PipelineComponent=debug
+#log4j.logger.com.paisley.foundation.task.Task=debug
+#log4j.logger.com.paisley.foundation.task.TaskContainer=debug
+#log4j.logger.com.paisley.foundation.thread.ShutdownManager=debug
+
+#
+# logger for Client workers and Client Managers
+#
+#log4j.logger.com.paisley.foundation.client.AutomaticLifecycleClientWorker=debug
+#log4j.logger.com.paisley.foundation.client.Client=debug
+#log4j.logger.com.paisley.foundation.client.ClientManager=debug
+#log4j.logger.com.paisley.foundation.client.ClientWorkerSorter=debug
+#log4j.logger.com.paisley.foundation.client.FloodControlManager=debug
+#log4j.logger.com.paisley.foundation.client.ipc.IPCClientReloadMessage=debug
+#log4j.logger.com.paisley.foundation.client.ipc.IPCClientResumeMessage=debug
+#log4j.logger.com.paisley.foundation.client.ipc.IPCClientSuspendMessage=debug
+#log4j.logger.com.paisley.foundation.client.MetamodelRepositoryRefreshDam=debug
+#log4j.logger.com.paisley.foundation.client.PerClientBootstrap=debug
+#log4j.logger.com.paisley.foundation.client.suspension.ClientActivitySuspension=debug
+#log4j.logger.com.paisley.foundation.client.suspension.ClientActivitySuspensionManager=debug
+#log4j.logger.com.paisley.foundation.client.suspension.ClientSuspender=debug
+#log4j.logger.com.paisley.foundation.ipc.IPCChannel=debug
+#log4j.logger.com.paisley.foundation.ipc.IPCServer=debug
+#log4j.logger.com.paisley.framework.open.model.OpenMetamodelRepository=debug
+#log4j.logger.com.paisley.framework.model.clientworker.SystemModelClientResumer=debug
+
+#
+#  Logger for Configuration
+#
+#log4j.logger.com.paisley.foundation.configuration.UserConfiguration=debug
+
+#
+#  Logger for Data base connection and Transactions
+#
+#log4j.logger.com.paisley.foundation.database.connection.DatabaseConnection=debug
+#log4j.logger.com.paisley.foundation.database.connection.DatabaseConnectionDirect=debug
+#log4j.logger.com.paisley.foundation.database.connection.DatabaseConnectionJNDI=debug
+#log4j.logger.com.paisley.foundation.database.Database=debug
+#log4j.logger.com.paisley.foundation.database.pool.DatabasePoolTask=debug
+#log4j.logger.com.paisley.foundation.database.pool.DBConnectionPoolClientWorker=debug
+#log4j.logger.com.paisley.foundation.database.transaction.DatabaseTransactionImpl=debug
+#log4j.logger.com.paisley.foundation.database.transaction.DatabaseTransactionManager=debug
+#log4j.logger.com.paisley.foundation.database.transaction.ServiceTransactionInjector=debug
+#log4j.logger.com.paisley.foundation.persistent.sql.PersistentDelete=debug
+#log4j.logger.com.paisley.foundation.schema.validator.SchemaValidator=debug
+#log4j.logger.com.paisley.foundation.sql.decorator.batchvalidator.BatchValidatorConnection=debug
+#log4j.logger.com.paisley.foundation.sql.decorator.batchvalidator.BatchValidatorToolkit=debug
+#log4j.logger.com.paisley.foundation.sql.decorator.log.LogPreparedStatement=debug
+#log4j.logger.com.paisley.foundation.sql.decorator.log.LogResultSet=debug
+#log4j.logger.com.paisley.foundation.sql.decorator.log.LogStatement=debug
+#log4j.logger.com.paisley.framework.open.model.persistent.validation.PersistentObjectValidator=debug
+#log4j.logger.com.paisley.rnj.common.util.DatabaseSchemaUtil=debug
+#log4j.logger.com.paisley.rnj.common.util.ObjectDataBuilder=debug
+#log4j.logger.com.paisley.rnj.common.util.ObjectHelper=debug
+#log4j.logger.com.paisley.rnj.common.util.PaisleyObjectInputStream=debug
+#log4j.logger.com.paisley.rnj.common.util.PopulateValueHolderHelper=debug
+#log4j.logger.com.paisley.rnj.common.util.RandomGUID=debug
+#log4j.logger.com.paisley.rnj.common.util.RangedStringHelper=debug
+#log4j.logger.com.paisley.rnj.common.util.ReflectionHelper=debug
+#log4j.logger.com.paisley.rnj.common.util.SchemaFactory=debug # Info about schema loading
+#log4j.logger.com.paisley.rnj.common.util.SchemaMapping=debug
+#log4j.logger.com.paisley.rnj.common.util.SecureInput=debug
+#log4j.logger.com.paisley.rnj.common.util.SQLText=debug
+#log4j.logger.com.paisley.rnj.common.util.StringUtil=debug
+#log4j.logger.com.paisley.rnj.common.util.TableMapping=debug
+#log4j.logger.com.paisley.rnj.schema.valueholder.DBColumn=debug
+#log4j.logger.com.paisley.rnj.schema.valueholder.DBSchema=debug
+#log4j.logger.com.paisley.rnj.schema.valueholder.DBTable=debug
+
+#
+# Logger for mail
+#
+#log4j.logger.com.paisley.foundation.mail.ComplexMailer=debug
+#log4j.logger.com.paisley.foundation.mail.MailHelper=debug
+#log4j.logger.com.paisley.foundation.mail.PostMaster=debug
+
+#
+# Logger for Provision Tool
+#
+#log4j.logger.com.paisley.foundation.provision.ProvisionNode=debug
+
+#
+# Logger for Schedulers
+#
+#log4j.logger.com.paisley.foundation.scheduler.model.SchedulerEntry=debug
+#log4j.logger.com.paisley.foundation.scheduler.Scheduler=debug
+
+
+#
+# Logger for Spurs
+#
+#log4j.logger.com.paisley.foundation.spur.SpurManager=debug
+
+#
+# Logger for System Events
+#
+#log4j.logger.com.paisley.foundation.system.event.SystemEventDispatcher=debug
+#log4j.logger.com.paisley.foundation.system.SystemLogger=debug
+#log4j.logger.com.paisley.foundation.system.SystemOption=debug
+#log4j.logger.com.paisley.foundation.system.timer.SystemTimerExecutor=debug
+
+#log4j.logger.com.paisley.foundation.xml.XMLTag=debug
+
+#log4j.logger.com.paisley.framework.addin.exchange.AddInExchange=debug
+
+#
+# Logger for Qumas
+#
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.doc.QumasBPMConnector=debug
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.service.QumasCacheFlushWebService=debug
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.service.QumasDeleteCPWebService=debug
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.service.QumasLoginWebService=debug
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.service.QumasLogoutWebService=debug
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.service.QumasRestoreCPWebService=debug
+#log4j.logger.com.paisley.framework.bpm.driver.qumas.service.QumasWebService=debug
+#log4j.logger.com.paisley.partner.qumas.servlet.ProxyServlet=debug
+
+#
+# Logger for BPM engine
+#
+#log4j.logger.com.paisley.framework.bpm.responder.BPMEventResponder=debug
+#log4j.logger.com.paisley.framework.bpm.responder.BPMPingResponder=debug
+
+#
+# Logger for CDF
+#
+#log4j.logger.com.paisley.framework.cdf.bulk.CDFBulkWorkQueue=debug
+#log4j.logger.com.paisley.framework.cdf.CDFCalculationCollector=debug
+#log4j.logger.com.paisley.framework.cdf.CDFClientWorker=debug
+#log4j.logger.com.paisley.framework.cdf.CDFSystemContentAdapter=debug
+#log4j.logger.com.paisley.framework.cdf.script.CDFScriptCache=debug
+
+#
+# Logger for Cluster
+#
+#log4j.logger.com.paisley.framework.cluster.cache.ClusterEnumCacheClientWorker=debug
+#log4j.logger.com.paisley.framework.cluster.cache.task.ClusterTaskCacheClientWorker=debug
+
+#
+# Logger related to Compliance Feed Processors (Complinet - CC and DIS/ACMi - CA & CW)
+#
+log4j.logger.com.paisley.framework.compliance.datagetter=info, feed_output
+log4j.logger.com.paisley.framework.compliance.feed=info, feed_output
+
+#
+# Logger for Document Copy
+#
+#log4j.logger.com.paisley.framework.copy.DocumentCopier=debug
+
+#
+# Logger for DTM
+#
+#log4j.logger.com.paisley.framework.documentType.DocumentTypeSettings=debug
+#log4j.logger.com.paisley.framework.documentType.DocumentTypeSettingsImporter=debug
+
+#
+# Loggers for Fusion Model
+#
+#log4j.logger.com.paisley.framework.fusion.behavior.compliance.FusionBehaviorCreateMultipleOSCP=debug
+#log4j.logger.com.paisley.framework.fusion.FusionModelClass=debug
+#log4j.logger.com.paisley.framework.fusion.smart.FusionSmartCalculatedProperty=debug
+#log4j.logger.com.paisley.framework.script.accessible.FusionModelAccessorObject=debug
+
+#
+#  Logger for Health Check related issues
+#
+#log4j.logger.com.paisley.framework.health.HealthCheckTask=debug
+#log4j.logger.com.paisley.framework.health.HealthClientWorker=debug
+#log4j.logger.com.paisley.framework.health.HealthOnDemandTask=debug
+#log4j.logger.com.paisley.framework.health.HealthSchedulerTask=debug
+#log4j.logger.com.paisley.framework.health.probe.HealthSmartFormCollector=debug
+#log4j.logger.com.paisley.framework.health.probe.ProbeExceptionHandler=debug\
+
+#
+# Logger for System IMport/Export
+#
+#log4j.logger.com.paisley.framework.model.persist.SystemModelExport=debug
+#log4j.logger.com.paisley.framework.model.persist.SystemModelImport=debug
+#log4j.logger.com.paisley.framework.model.service.operation.difference.SMDifferenceTaskUnit=debug
+#log4j.logger.com.paisley.framework.model.service.operation.difference.SMDifferenceTask=debug
+#log4j.logger.com.paisley.framework.model.service.operation.importapply.SMImportApplyTaskUnit=debug
+#log4j.logger.com.paisley.framework.model.service.operation.importapply.SMSuspendWorkerTaskUnit=debug
+#log4j.logger.com.paisley.framework.model.service.operation.logical.LogicalRenameResultConverter=debug
+#log4j.logger.com.paisley.framework.model.service.operation.logical.LogicalRenameUpdateRequest=debug
+#log4j.logger.com.paisley.framework.model.service.operation.SystemModelOperationBase=debug
+#log4j.logger.com.paisley.framework.model.service.stream.SMExchangeDatabaseWritingTarget=debug
+#log4j.logger.com.paisley.framework.sql.export.ExportStreamWriter=debug
+#log4j.logger.com.paisley.framework.exchange.ExchangeImporter=debug
+#log4j.logger.com.paisley.framework.model.SystemModelServlet2=debug
+
+#
+# Logger for User Defined notifications
+#
+#log4j.logger.com.paisley.framework.notification.NotificationSystemContentAdapter=debug
+#log4j.logger.com.paisley.framework.usernotification.UserDefinedNotificationManager=debug
+#log4j.logger.com.paisley.rnj.notification.daoimpl.BatchNotificationDAOImpl=debug
+#log4j.logger.com.paisley.rnj.notification.util.NotifyControlsToBeTestedThread=debug
+#log4j.logger.com.paisley.rnj.notification.util.SendBatchNotificationsThread=debug
+
+#
+# Logger for Authentication
+#
+#log4j.logger.com.paisley.framework.open.auth.AuthenticationToolkit=debug
+#log4j.logger.com.paisley.rnj.security.authentication.EncryptionKeyValidator=debug
+#log4j.logger.com.paisley.rnj.security.authentication.IACLoginModule=debug
+#log4j.logger.com.paisley.rnj.security.authentication.JBossLdapLoginModule=debug
+#log4j.logger.com.paisley.rnj.security.authentication.OfflineLoginModule=debug
+#log4j.logger.com.paisley.rnj.security.authentication.CredentialsAuthenticatorBase=debug
+#log4j.logger.com.paisley.rnj.security.authentication.NonHostedSSOAuthenticatorFactory=debug
+#log4j.logger.com.paisley.rnj.security.authentication.OfflineCredentials=debug
+
+#
+# Logger for Web Services
+#
+#log4j.logger.com.paisley.framework.open.webservice.service.object.FindFilteredService=debug
+#log4j.logger.com.paisley.framework.open.webservice.service.object.manipulate.ObjectManipulator=debug
+#log4j.logger.com.paisley.framework.open.webservice.service.object.manipulate.persistence.OfflineRequestCapture=debug
+#log4j.logger.com.paisley.framework.open.webservice.service.workflow.WorkflowGetAllInstancesService=debug
+#log4j.logger.com.paisley.framework.open.webservice.service.workflow.WorkflowGetAllModelsService=debug
+#log4j.logger.com.paisley.framework.spark.server.handler.SparkServiceHandler=debug 
+#log4j.logger.com.paisley.framework.spark.server.SparkServlet=debug
+#log4j.logger.com.paisley.framework.open.server.OpenAPIDocServlet=debug
+
+#
+# Logger for Rule Validations
+#
+#log4j.logger.com.paisley.framework.rule.RuleAuditRelation=debug
+#log4j.logger.com.paisley.framework.rule.RuleToolkit=debug
+#log4j.logger.com.paisley.framework.rule.RuleTracingFacade=debug
+#log4j.logger.com.paisley.framework.filter.FilterExpression=debug
+#log4j.logger.com.paisley.rnj.rules.CommonConditions=debug
+#log4j.logger.com.paisley.rnj.rules.ConditionsBase=debug
+#log4j.logger.com.paisley.rnj.rules.RuleGroup=debug
+#log4j.logger.com.paisley.rnj.rules.Rules=debug
+#log4j.logger.com.paisley.rnj.rules.RulesFactory=debug
+#log4j.logger.com.paisley.rnj.rules.SecureDocumentConditions=debug
+#log4j.logger.com.paisley.rnj.rules.SignOffConditions=debug
+#log4j.logger.com.paisley.rnj.rules.StateCondition=debug
+#log4j.logger.com.paisley.rnj.rules.StateConditions=debug
+#log4j.logger.com.paisley.rnj.rules.StateConditionsFactory=debug
+#log4j.logger.com.paisley.rnj.rules.StateConditionValueHolderContext=debug
+
+#
+# Logger for Smart Forms
+#
+#log4j.logger.com.paisley.framework.smartform.SmartFormExchange=debug
+#log4j.logger.com.paisley.framework.smartform.SmartFormSystemContentAdapter=debug
+#log4j.logger.com.paisley.framework.smartform.xmlExchange.SmartFormSettings=debug
+
+#
+# Logger for User Profile and Registration
+#
+#log4j.logger.com.paisley.framework.userprofile.PanelSystemContentAdapter=debug
+#log4j.logger.com.paisley.framework.userprofile.UserFactoryDefault=debug
+#log4j.logger.com.paisley.framework.userregistration.UserRegistration=debug
+
+#
+#  Logger for Workflow
+#
+#log4j.logger.com.paisley.framework.workflow.engine.WorkflowEngine=debug
+#log4j.logger.com.paisley.framework.workflow.engine.WorkflowListenerIPCMessage=debug
+#log4j.logger.com.paisley.framework.workflow.model.step.WorkflowStep=debug
+#log4j.logger.com.paisley.framework.workflow.model.WorkflowInitiation=debug
+#log4j.logger.com.paisley.framework.workflow.model.WorkflowInstance=debug
+#log4j.logger.com.paisley.framework.workflow.model.WorkflowModel=debug
+#log4j.logger.com.paisley.framework.workflow.model.WorkflowModelUpdateBroadcaster=debug
+#log4j.logger.com.paisley.framework.workflow.WorkflowStepEscalationBackgroundTask=debug
+#log4j.logger.com.paisley.framework.workflow.WorkflowSystemContentAdapter=debug
+
+#
+#  Logger for Account
+#
+#log4j.logger.com.paisley.rnj.account.daoimpl.AccountDAOImpl=debug
+#log4j.logger.com.paisley.rnj.account.service.AccountService=debug
+
+
+#  Logger for AssertionModel
+#
+#log4j.logger.com.paisley.rnj.account.daoimpl.AssertionDAOImpl=debug
+#log4j.logger.com.paisley.rnj.account.daoimpl.AssertionModelDAOImpl=debug
+#log4j.logger.com.paisley.rnj.account.service.AssertionService=debug
+
+#
+# Logger for Org Structure
+#
+#log4j.logger.com.paisley.rnj.account.daoimpl.OrgStructureDAOImpl=debug
+#log4j.logger.com.paisley.rnj.account.daoimpl.OrgStructureTypeDAOImpl=debug
+#log4j.logger.com.paisley.rnj.account.service.OrgStructureServiceBean=debug
+#log4j.logger.com.paisley.rnj.account.valueholder.OrgStructure=debug
+#log4j.logger.com.paisley.rnj.account.valueholder.OrgStructureTemplate=debug
+#log4j.logger.com.paisley.rnj.account.action.OrgStructureAction=debug
+#log4j.logger.com.paisley.rnj.account.action.OrgStructureTemplateAddTypeAction=debug
+#log4j.logger.com.paisley.rnj.account.action.OrgStructureTemplateRemoveTypeAction=debug
+#log4j.logger.com.paisley.rnj.account.action.OrgStructureUpdateAction=debug
+ 	 
+ 	 
+#
+#  Logger for Archive
+#
+#log4j.logger.com.paisley.rnj.archive.engine.ArchiveEngine=debug
+#log4j.logger.com.paisley.rnj.archive.engine.ArchiveSchedulerTask=debug
+#log4j.logger.com.paisley.rnj.archive.engine.ArchiveStatusManager=debug
+#log4j.logger.com.paisley.rnj.archive.engine.processor.ArchiveBaseProcessor=debug
+#log4j.logger.com.paisley.rnj.archive.engine.processor.ArchiveEmailProcessor=debug
+#log4j.logger.com.paisley.rnj.archive.model.ArchiveLabelResources=debug
+#log4j.logger.com.paisley.rnj.archive.model.ArchiveLabels=debug
+#log4j.logger.com.paisley.rnj.archive.unit.ArchivePipelineBaseUnit=debug
+#log4j.logger.com.paisley.rnj.archive.action.ArchiveDateHandlerAction=debug
+#log4j.logger.com.paisley.rnj.archive.action.ArchiveDateToolkit=debug
+#log4j.logger.com.paisley.rnj.archive.action.ArchiveFormatter=debug
+#log4j.logger.com.paisley.rnj.archive.action.ViewArchiveDocumentAction=debug
+#log4j.logger.com.paisley.rnj.archive.action.ViewArchiveReportAction=debug
+
+#
+#  Logger for Enums
+#
+#log4j.logger.com.paisley.rnj.common.cache.EnumCacheManager=debug
+
+#
+# Logger for DAO
+#
+#log4j.logger.com.paisley.rnj.common.dao.DAO=debug
+#log4j.logger.com.paisley.rnj.common.dao.DAOFactory=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.AssignmentDAOImpl=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.ChangeHistoryDAOImpl=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.CommentDAOImpl=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.EnumDAOImpl=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.NotificationDAOImpl=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.TreeNavLargMenuHelperDAOImpl=debug
+#log4j.logger.com.paisley.rnj.common.daoimpl.WebLinkDAOImpl=debug
+#log4j.logger.com.paisley.rnj.eventtracking.daoimpl.EventDAOImpl=debug
+#log4j.logger.com.paisley.rnj.home.daoimpl.BookmarkDAOImpl=debug
+#log4j.logger.com.paisley.rnj.risk.daoimpl.RiskControlRelationDAOImpl=debug
+#log4j.logger.com.paisley.rnj.risk.daoimpl.RiskDAOImpl=debug
+#log4j.logger.com.paisley.rnj.risk.daoimpl.RiskModelDAOImpl=debug
+
+#
+# Logger for ContentManagement
+#
+#log4j.logger.com.paisley.rnj.content = debug
+
+#log4j.logger.com.paisley.rnj.content.command.CancelCheckoutCommand=debug
+#log4j.logger.com.paisley.rnj.content.command.CheckInCompleteCommand=debug
+#log4j.logger.com.paisley.rnj.content.ContentBootstrapThread=debug
+#log4j.logger.com.paisley.rnj.content.ContentManagementBootstrap=debug
+#log4j.logger.com.paisley.rnj.content.ContentRepairBootstrap=debug
+#log4j.logger.com.paisley.rnj.content.delete.ArchiveContentDeletionStrategy=debug
+#log4j.logger.com.paisley.rnj.content.delete.DocumentContentDeletionStrategy=debug
+#log4j.logger.com.paisley.rnj.content.load.DocumentFileLoadStrategy=debug
+#log4j.logger.com.paisley.rnj.content.wolf.Wolf=debug
+
+#
+#  Logger for Dynamic Fields
+#
+#log4j.logger.com.paisley.rnj.dynamicfield.daoimpl.DynamicFieldDAOImpl=debug
+#log4j.logger.com.paisley.rnj.dynamicfield.daoimpl.DynamicFieldEligibleFormDAOImpl=debug
+#log4j.logger.com.paisley.rnj.dynamicfield.daoimpl.DynamicFieldSourceOptionDAOImpl=debug
+#log4j.logger.com.paisley.rnj.dynamicfield.service.DynamicFieldCache=debug
+#log4j.logger.com.paisley.rnj.dynamicfield.valueholder.DynamicField=debug
+#log4j.logger.com.paisley.rnj.dynamicfielddata.daoimpl.DynamicFieldDataDAOImpl=debug
+
+#
+#  Logger for issue related problems
+#
+#log4j.logger.com.paisley.rnj.issue.daoimpl.ActionPlanDAOImpl=debug
+#log4j.logger.com.paisley.rnj.issue.daoimpl.IssueDAOImpl=debug
+#log4j.logger.com.paisley.rnj.issue.service.ActionPlanService=debug
+#log4j.logger.com.paisley.rnj.issue.service.IssueService=debug
+
+#
+#  Logger for maintenance related problems
+#
+#log4j.logger.com.paisley.rnj.label.daoimpl.LabelDAOImpl=debug
+#log4j.logger.com.paisley.rnj.maintenance.daoimpl.ReferenceDAOImpl=debug
+#log4j.logger.com.paisley.rnj.maintenance.daoimpl.StandardFormatDAOImpl=debug
+#log4j.logger.com.paisley.rnj.maintenance.service.DeletionService=debug
+#log4j.logger.com.paisley.rnj.maintenance.service.LabelService=debug
+
+#
+# Logger for process related problems
+#
+#log4j.logger.com.paisley.rnj.process.daoimpl.BusinessRiskAreaDAOImpl=debug
+#log4j.logger.com.paisley.rnj.process.daoimpl.ProcessClassDAOImpl=debug
+#log4j.logger.com.paisley.rnj.process.daoimpl.ProcessClassTypeDAOImpl=debug
+#log4j.logger.com.paisley.rnj.process.service.BusinessRiskAreaService=debug
+
+#
+#  Logger for field history processor related problems
+#
+#log4j.logger.com.paisley.rnj.processing.BatchNotificationRestrictionsProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.BatchNotificationSendToProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.CategoryProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.ClobProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.DateProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.DynamicFieldDataProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.EnumProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.LabelProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.MetaClassPropertyProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.MilestoneProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.NotificationProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.OrgStructureProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.RelationShipProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.RiskAssessmentProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.SignOffProcessor=debug
+#log4j.logger.com.paisley.rnj.processing.TextProcessor=debug
+
+#
+#  Logger for reporting
+#
+#log4j.logger.com.paisley.rnj.reporting.daoimpl.AdHocAttachmentDAOImpl=debug
+#log4j.logger.com.paisley.rnj.reporting.daoimpl.AdHocReportDAOImpl=debug
+#log4j.logger.com.paisley.rnj.reporting.daoimpl.HeatMapDAOImpl=debug
+#log4j.logger.com.paisley.rnj.reporting.daoimpl.SnapReportDAOImpl=debug
+#log4j.logger.com.paisley.rnj.reporting.format.valueholder.SnapDataFormatter=debug
+#log4j.logger.com.paisley.rnj.reporting.service.AdHocReportService=debug
+#log4j.logger.com.paisley.rnj.reporting.service.ReportingService=debug
+#log4j.logger.com.paisley.rnj.reporting.template.util.ObjectTemplateReplacement=debug
+#log4j.logger.com.paisley.rnj.reporting.util.AdHocReportConfigHelper=debug
+#log4j.logger.com.paisley.rnj.reporting.util.AdHocReportHelper=debug
+#log4j.logger.com.paisley.rnj.reporting.util.AdHocReportStep=debug
+#log4j.logger.com.paisley.rnj.reporting.util.AdHocTempFileRemovalSpur=debug
+#log4j.logger.com.paisley.rnj.reporting.util.FilterHelper=debug
+#log4j.logger.com.paisley.rnj.reporting.util.FilterJoin=debug
+#log4j.logger.com.paisley.rnj.reporting.util.FilterUtility=debug
+#log4j.logger.com.paisley.rnj.reporting.util.NextRunHelper=debug
+#log4j.logger.com.paisley.rnj.reporting.util.ReportingController=debug
+#log4j.logger.com.paisley.rnj.reporting.util.ReportScheduler=debug
+#log4j.logger.com.paisley.rnj.reporting.util.ReportThread=debug
+#log4j.logger.com.paisley.rnj.reporting.util.ReportThreadController=debug
+#log4j.logger.com.paisley.rnj.reporting.valueholder.HeatMapMappingFactory=debug
+#log4j.logger.com.paisley.rnj.reporting.valueholder.HeatMapReport=debug #Debug the xml that is output to curl
+#log4j.logger.com.paisley.rnj.reporting.valueholder.PrimaryColsIndFilter=debug
+#log4j.logger.com.paisley.rnj.reporting.valueholder.ReportConfigTableColumnFilter=debug
+#log4j.logger.com.paisley.rnj.reporting.valueholder.ReportDataGenerator=debug
+#log4j.logger.com.paisley.rnj.reporting.action.AdHocBaseAction=debug
+#log4j.logger.com.paisley.rnj.reporting.action.ActionPlanComponent=debug
+#log4j.logger.com.paisley.rnj.reporting.action.AssignmentComponent=debug
+#log4j.logger.com.paisley.rnj.reporting.action.ControlComponent=debug
+#log4j.logger.com.paisley.rnj.reporting.action.ControlTestComponent=debug
+#log4j.logger.com.paisley.rnj.reporting.action.IssueComponent=debug
+#log4j.logger.com.paisley.rnj.reporting.action.ProcessProjectComponent=debug
+#log4j.logger.com.paisley.rnj.reporting.action.RiskComponent=debug
+#log4j.logger.com.paisley.rnj.startup.ReportingStartUp=debug
+
+#
+#  Logger for Control
+#
+#log4j.logger.com.paisley.rnj.risk.daoimpl.ControlDAOImpl=debug
+#log4j.logger.com.paisley.rnj.risk.daoimpl.ControlModelDAOImpl=debug
+#log4j.logger.com.paisley.rnj.risk.daoimpl.ControlModelRiskModelRelationDAOImpl=debug
+#log4j.logger.com.paisley.rnj.risk.daoimpl.ControlTestItemDAOImpl=debug
+
+#
+#  Logger for risk and control service bean
+#
+#log4j.logger.com.paisley.rnj.risk.service.ControlService=debug
+#log4j.logger.com.paisley.rnj.risk.service.RiskService=debug
+
+#
+#  Logger for risk assessment
+#
+#log4j.logger.com.paisley.rnj.riskassessment.daoimpl.RiskAssessmentCriterionDAOImpl=debug
+#log4j.logger.com.paisley.rnj.riskassessment.daoimpl.RiskAssessmentDAOImpl=debug
+#log4j.logger.com.paisley.rnj.riskcriterion.daoimpl.RiskCriterionDAOImpl=debug
+#log4j.logger.com.paisley.rnj.riskcriterion.daoimpl.RiskCriterionDefinitionDAOImpl=debug
+
+#
+#  Logger for Authorization
+#
+#log4j.logger.com.paisley.rnj.security.authorization.ResourcePermission=debug
+#log4j.logger.com.paisley.rnj.security.authorization.XMLPolicyFileClientWorker=debug
+#log4j.logger.com.paisley.rnj.security.action.ApproveAction=debug
+#log4j.logger.com.paisley.rnj.security.action.LogoutAction=debug
+#log4j.logger.com.paisley.rnj.security.daoimpl.DocPermRelationDAOImpl=debug
+#log4j.logger.com.paisley.rnj.security.valueholder.AuthorizationContext=debug
+#log4j.logger.com.paisley.rnj.security.daoimpl.DocumentDAOImpl=debug
+#log4j.logger.com.paisley.rnj.security.daoimpl.DocumentDeletionHelper=debug
+#log4j.logger.com.paisley.rnj.security.daoimpl.DocumentHelper=debug
+#log4j.logger.com.paisley.rnj.security.daoimpl.DocumentHierarchyHelper=debug
+#log4j.logger.com.paisley.rnj.security.daoimpl.DocumentMarkedForDeletionHelper=debug
+#log4j.logger.com.paisley.rnj.security.lookup.Configuration=debug
+#log4j.logger.com.paisley.rnj.security.lookup.DynamicGroupsLookupModule=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LDAPLookupModule=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LdapSslSocketFactory=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LookupBootstrap=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LookupCache=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LookupConfigClientWorker=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LookupEntry=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LookupGroup=debug
+#log4j.logger.com.paisley.rnj.security.lookup.LookupStoreClientWorker=debug
+#log4j.logger.com.paisley.rnj.security.lookup.message.LookupReadMessage=debug
+#log4j.logger.com.paisley.rnj.security.lookup.OfflineLookupModule=debug
+#log4j.logger.com.paisley.rnj.security.lookup.PenLdapLookupModule=debug
+#log4j.logger.com.paisley.rnj.security.lookup.thread.LookupReaderThread=debug
+#log4j.logger.com.paisley.rnj.security.lookup.thread.LookupRefreshTimerClientWorker=debug
+#log4j.logger.com.paisley.rnj.security.lookup.thread.LookupSocketListenerBackgroundTask=debug
+#log4j.logger.com.paisley.rnj.security.lookup.thread.LookupWriterThread=debug
+#log4j.logger.com.paisley.rnj.security.lookup.work.LookupInitializeWork=debug
+#log4j.logger.com.paisley.rnj.security.lookup.work.LookupRefreshWork=debug
+#log4j.logger.com.paisley.rnj.security.service.AuthorizationService=debug
+#log4j.logger.com.paisley.rnj.security.service.DocumentService=debug
+#log4j.logger.com.paisley.rnj.security.service.LookupService=debug
+#log4j.logger.com.paisley.rnj.security.valueholder.DocumentSignoffRules=debug
+#log4j.logger.com.paisley.rnj.security.valueholder.SecureDocumentImpl=debug
+
+#
+#  Logger for all services
+#
+#log4j.logger.com.paisley.rnj.service.BaseService=debug
+#log4j.logger.com.paisley.rnj.service.SequenceService=debug
+#log4j.logger.com.paisley.rnj.common.service.AssignmentService=debug
+#log4j.logger.com.paisley.rnj.common.service.NotificationService=debug
+#log4j.logger.com.paisley.rnj.common.service.ScopeService=debug
+
+#
+#  Logger for survey related problems
+#
+#log4j.logger.com.paisley.rnj.survey.daoimpl.QuestionDAOImpl=debug
+#log4j.logger.com.paisley.rnj.survey.daoimpl.QuestionSetDAOImpl=debug
+#log4j.logger.com.paisley.rnj.survey.daoimpl.SurveyDAOImpl=debug
+#log4j.logger.com.paisley.rnj.survey.daoimpl.SurveyDaoMethods=debug
+#log4j.logger.com.paisley.rnj.survey.daoimpl.SurveyResponseDAOImpl=debug
+#log4j.logger.com.paisley.rnj.survey.daoimpl.SurveyTemplateDAOImpl=debug
+#log4j.logger.com.paisley.rnj.survey.service.SurveyService=debug
+#log4j.logger.com.paisley.rnj.survey.valueholder.QuestionSet=debug
+#log4j.logger.com.paisley.rnj.survey.action.CSASurveySendAction=debug
+#log4j.logger.com.paisley.rnj.survey.action.CSASurveyTemplateUpdateAction=debug
+#log4j.logger.com.paisley.rnj.survey.action.QuestionSetUpdateAction=debug
+#log4j.logger.com.paisley.rnj.survey.action.SurveyResponseCompleteAction=debug
+
+#
+#  Logger for translation related 
+#
+#log4j.logger.com.paisley.rnj.udf.translation.UDFTranslationExportableSource=debug
+#log4j.logger.com.paisley.framework.translation.ExportImportTranslationsServlet=debug
+
+#
+#  Logger for xml action objects related problems
+#
+#log4j.logger.com.paisley.rnj.xml.actionobjects.ComplianceProgramArchiveTagActionHandler=debug
+#log4j.logger.com.paisley.rnj.xml.actionobjects.CreateRiskTagActionHandler=debug
+#log4j.logger.com.paisley.rnj.xml.actionobjects.GetDataTagActionHandler=debug
+#log4j.logger.com.paisley.rnj.xml.actionobjects.UpdateControlTagActionHandler=debug
+#log4j.logger.com.paisley.rnj.xml.actionobjects.UpdateProcessTagActionHandler=debug
+#log4j.logger.com.paisley.rnj.xml.actionobjects.UpdateRiskTagActionHandler=debug
+#log4j.logger.com.paisley.rnj.xml.batch.actionobjects.CurlBatchActionHandler=debug
+
+#
+#  Logger for handler related problems
+#
+#log4j.logger.com.paisley.rnj.xml.handlers.TemplateHandler=debug
+
+#
+#  Logger for transceiver related problems
+#
+#log4j.logger.com.paisley.foundation.transceiver.direct.TransceiverDirectResponse=debug
+#log4j.logger.com.paisley.foundation.transceiver.form.TransceiverFormResponse=debug
+
+#
+#  Logger for paisley actions
+#
+#log4j.logger.com.paisley.rnj.common.action.BaseAction=debug
+#log4j.logger.com.paisley.rnj.common.action.CookiesCleaner=debug
+#log4j.logger.com.paisley.rnj.common.action.DynaValidatorForm=debug
+#log4j.logger.com.paisley.rnj.common.action.NotifySendMailAction=debug
+#log4j.logger.com.paisley.rnj.common.action.PaisleyActionForm=debug
+#log4j.logger.com.paisley.rnj.common.action.PaisleyRequestProcessor=debug
+#log4j.logger.com.paisley.rnj.common.action.SystemMonitorFilter=debug
+#log4j.logger.com.paisley.rnj.common.action.WebLinkQuickPasteAction=debug
+
+#
+#  Logger for Maintanance Action
+#
+#log4j.logger.com.paisley.rnj.maintenance.action.DocumentDelNavAction=debug
+#log4j.logger.com.paisley.rnj.maintenance.action.GlobalReplaceValueController=debug
+#log4j.logger.com.paisley.rnj.maintenance.action.GlobalReplaceValueThread=debug
+#log4j.logger.com.paisley.rnj.maintenance.action.UserDefinedFieldsAction=debug
+#log4j.logger.com.paisley.rnj.maintenance.action.UserDefinedFieldsPopupAction=debug
+
+#
+#  Logger for Print Document and Download
+#
+#log4j.logger.com.paisley.rnj.print.action.DownloadAttachment=debug
+#log4j.logger.com.paisley.rnj.print.action.PrintDocumentAction=debug
+
+#
+#  Logger for Tree Navigations
+#
+#log4j.logger.com.paisley.rnj.bean.MenuItemValue=debug
+#log4j.logger.com.paisley.rnj.bean.ModelMenuItemValue=debug
+#log4j.logger.com.paisley.rnj.bean.TreeMenuStateBean=debug
+#log4j.logger.com.paisley.rnj.process.action.SharedProcessNavAction=debug
+#log4j.logger.com.paisley.rnj.risk.action.SharedControlNavAction=debug
+#log4j.logger.com.paisley.rnj.scope.action.ScopeNavAction=debug
+#log4j.logger.com.paisley.rnj.scope.action.ScopeNavUpdateAction=debug
+#log4j.logger.com.paisley.rnj.common.action.TreeMenuAction=debug
+#log4j.logger.com.paisley.rnj.common.action.TreeNavLargeMenuHelper=debug
+#log4j.logger.com.paisley.rnj.common.util.TreeNavFormatConfiguration=debug
+#log4j.logger.com.paisley.rnj.account.action.AccountUpdateAction=debug
+#log4j.logger.com.paisley.rnj.account.action.AssertionNavAction=debug
+#log4j.logger.com.paisley.rnj.account.action.AssertionSignOffAction=debug
+#log4j.logger.com.paisley.rnj.account.action.AssertionSignOffNavAction=debug
+#log4j.logger.com.paisley.rnj.account.action.LeafAccountByOrgStructureNavAction=debug
+#log4j.logger.com.paisley.rnj.account.action.LeafAccountByParentAccountNavAction=debug
+	 	 
+#
+#  Logger for taglib related problems
+#
+#log4j.logger.com.paisley.rnj.taglib.BusinessRuleTag=debug
+#log4j.logger.com.paisley.rnj.taglib.DisplayNamesTag=debug
+#log4j.logger.com.paisley.rnj.taglib.EnumOptionsCollectionTag=debug
+#log4j.logger.com.paisley.rnj.taglib.EnumWriteTag=debug
+#log4j.logger.com.paisley.rnj.taglib.HelpLinkTag=debug
+#log4j.logger.com.paisley.rnj.taglib.LinkTag=debug
+#log4j.logger.com.paisley.rnj.taglib.ParentsDisplayNamesTag=debug
+#log4j.logger.com.paisley.rnj.taglib.StatusIconTag=debug
+#log4j.logger.com.paisley.rnj.taglib.TwistyContentTag=debug
+#log4j.logger.com.paisley.rnj.taglib.TwistySummaryCloseTag=debug
+#log4j.logger.com.paisley.rnj.taglib.TwistySummaryOpenTag=debug
+#log4j.logger.com.paisley.rnj.taglib.TwistySummaryTag=debug
+#log4j.logger.com.paisley.rnj.taglib.TwistyTag=debug
+
+#
+#  Logger for sql export related problems
+#
+#log4j.logger.com.paisley.sql.export.DataExportSpawnAction=debug
+#log4j.logger.com.paisley.sql.export.DataExportStatusAction=debug
+
+#
+#  Logger for logical rename
+#
+#log4j.logger.com.paisley.framework.model.logical.replace.SystemModelLogicalNameReplacer=debug
+#log4j.logger.com.paisley.framework.model.object.apply.SystemModelApplierImpl=debug
+
+#
+#  Logger for all input/output stream
+#
+#log4j.logger.com.paisley.rnj.common.util.PaisleyServletInputStream=debug
+#log4j.logger.com.paisley.rnj.common.util.PaisleyServletOutputStream=debug
+#log4j.logger.com.paisley.rnj.common.util.XSSchemaLoader=debug
+#log4j.logger.com.paisley.rnj.common.util.ZipUtil=debug
+#log4j.logger.com.paisley.foundation.file.TempFileManager=debug
+
+#
+#  Logger for validators
+#
+#log4j.logger.com.paisley.rnj.common.resources.ApplicationResourcesValidator=debug
+#log4j.logger.com.paisley.rnj.common.resources.TranslationContextValidator=debug
+#log4j.logger.com.paisley.rnj.common.validator.GenericValidator=debug
+#log4j.logger.com.paisley.rnj.common.validator.ValidatorPlugIn=debug
+
+#
+#  Logger for form value holders
+#
+#log4j.logger.com.paisley.rnj.common.util.FormDataBuilder=debug
+#log4j.logger.com.paisley.rnj.common.valueholder.EnumHardCoded=debug
+#log4j.logger.com.paisley.rnj.common.valueholder.ValueholderFactory=debug
+#log4j.logger.com.paisley.rnj.common.valueholder.WebLink=debug
+#log4j.logger.com.paisley.rnj.common.valueholder.WeblinkWangateur=debug
+
+#
+#  Logger for messaging
+#
+#log4j.logger.com.paisley.framework.messaging.loopback.LoopbackDriver=debug
+#log4j.logger.com.paisley.framework.messaging.MessagingWorkerTask=debug
+
+#log4j.logger.com.paisley.foundation.collection.PaisleyBlockingQueue=debug
+
+#log4j.logger.com.paisley.framework.logical.report.LogicalNameReporterRequest=debug
+
+#log4j.logger.com.paisley.framework.open.model.WorkspaceExchange=debug
+
+#log4j.logger.com.paisley.foundation.management.plugin.log.ManagementLog=debug
+
+#
+# Added Loggers for the Jira RNJ-64300
+#
+log4j.logger.com.paisley.rnj.common.action.SystemMonitorFilter=debug
+log4j.logger.com.paisley.framework.spark.server.SparkServlet=debug
+log4j.logger.com.paisley.foundation.client=info
+log4j.logger.com.paisley.foundation.client.suspension=info
+log4j.logger.com.paisley.framework.model.clientworker=info
+
+# Logger for Request Performance
+log4j.category.requestLogger=INFO, requestLog
+log4j.additivity.requestLogger=false
+
