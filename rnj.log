@@ -1,0 +1,767 @@
+INFO : 17-11-09 15:17:23 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:23 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:23 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:23 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:24 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:24 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:25 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:26 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:27 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:27 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:28 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:29 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:17:29 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:17:29 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:17:29 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:17:29 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:17:29 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:17:31 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:17:31 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:17:31 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:17:31 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:17:31 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:17:31 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:17:32 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:17:32 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:17:32 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:17:32 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:17:32 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:17:32 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:17:32 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:17:32 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:17:33 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:33 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:34 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:17:34 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:17:34 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:34 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:35 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:17:35 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:17:36 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:36 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:37 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:37 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:37 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:37 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:40 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:42 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:42 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:42 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:42 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:43 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:43 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:43 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:43 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:43 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:43 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:43 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:43 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:43 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:43 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:45 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:45 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:45 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:45 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:45 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:45 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:45 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:45 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:46 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:49 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:49 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:49 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:49 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:49 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:49 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:50 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:50 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:50 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:51 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:52 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:53 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:17:53 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:17:54 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:55 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:55 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:56 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:58 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:17:59 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:17:59 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:17:59 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:17:59 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:17:59 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:17:59 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:00 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:00 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:00 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:01 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:01 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:02 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:02 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:02 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:02 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:02 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:03 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:03 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:03 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:03 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:03 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:03 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:04 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:07 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:07 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:07 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:07 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:07 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:09 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:09 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:09 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:09 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:09 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:10 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:10 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:10 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:10 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:10 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:10 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:10 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:12 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:13 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:14 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:15 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:15 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:18:15 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:18:16 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:17 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:18 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:19 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:19 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:20 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:20 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:20 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:20 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:20 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:20 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:21 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:21 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:21 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:21 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:21 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:21 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:21 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:21 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:22 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:22 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:23 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:23 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:23 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:23 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:23 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:23 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:23 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:23 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:23 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:23 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:24 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:24 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:25 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:26 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:26 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:26 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:26 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:26 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:26 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:27 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:28 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:28 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:28 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:28 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:28 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:28 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:28 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:28 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:29 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:29 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:30 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:30 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:31 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:31 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:32 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:32 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:33 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:33 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:33 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:34 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:35 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:35 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:37 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:38 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:38 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:39 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:40 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:40 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:40 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:40 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:40 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:40 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:40 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:40 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:40 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:40 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:40 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:40 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:40 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:41 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:41 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:41 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:42 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:42 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:43 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:43 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:43 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:43 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:43 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:43 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:45 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:18:45 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:18:45 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:46 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:46 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:46 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:46 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:46 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:47 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:47 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:47 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:47 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:47 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:47 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:47 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:47 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:47 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:47 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:47 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:48 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:49 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:49 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:49 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:49 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:49 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:49 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:51 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:51 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:52 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:52 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:53 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:53 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:53 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:53 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:54 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:54 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:54 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:18:54 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:18:54 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:18:54 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:18:54 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:18:54 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:18:55 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:18:57 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:57 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:59 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:18:59 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:59 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:18:59 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:18:59 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:01 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:01 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:01 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:01 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:01 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:01 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:02 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:02 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:02 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:02 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:02 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:02 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:05 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:05 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:05 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:06 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:06 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:06 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:09 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:19:09 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:09 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:09 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:09 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:19:11 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:19:11 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:19:12 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:12 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:12 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:12 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:12 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:19:12 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:19:21 DatabaseConnectionDirect - [DB Cfg: name=ContentManagementImportTool, account=blrnavqaentwl32, name=blrnavqaentwl32, url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=grc-scan-bd0150.int.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ohstd23a.int.thomsonreuters.com))), driver=oracle.jdbc.driver.OracleDriver, jndiName=null]
+INFO : 17-11-09 15:19:24 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:25 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:28 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:29 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:30 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:30 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:30 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:30 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:30 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:29 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:30 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:30 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:32 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:32 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:32 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:32 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:33 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:33 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:33 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:33 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:33 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:33 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:33 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:33 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:33 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:34 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:35 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:35 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:35 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:35 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:25 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:23 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:36 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:36 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:35 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:33 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:34 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:36 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:36 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:36 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:36 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:37 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:37 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:37 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:37 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:38 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:38 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:38 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:38 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:38 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:38 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:38 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:38 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:39 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:36 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:40 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:40 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:40 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:40 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:35 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:40 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:40 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:40 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:44 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:44 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:44 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:44 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:44 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:44 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:44 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:42 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:42 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:45 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:45 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:45 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:42 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:46 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:44 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:46 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:41 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:19:46 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:19:46 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:19:46 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:46 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:43 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:42 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:49 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:48 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:44 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:19:49 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:50 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:50 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:19:51 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:19:51 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:19:45 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:01 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:01 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:01 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:01 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:01 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:02 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:04 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:04 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:05 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:04 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:05 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:05 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:05 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:05 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:09 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:09 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:09 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:09 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:09 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:09 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:09 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:08 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:10 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:10 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:10 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:10 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:10 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:10 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:10 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:11 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:11 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:11 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:11 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:11 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:10 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:12 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:12 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:12 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:10 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:13 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:13 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:13 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:14 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:14 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:14 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:14 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:14 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:14 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:14 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:14 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:14 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:14 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:15 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:14 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:15 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:15 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:16 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:14 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:16 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:16 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:17 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:17 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:17 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:19 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:19 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:19 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:17 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:19 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:21 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:22 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:22 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:22 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:29 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:32 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:33 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:34 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:34 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:34 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:28 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:20:34 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:34 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:34 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:34 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:40 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:45 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:45 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:45 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:45 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:46 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:46 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:46 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:47 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:46 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:47 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:48 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:46 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:48 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:47 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:48 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:48 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:48 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:48 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:20:48 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:20:48 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:48 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:48 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:49 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:49 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:49 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:20:49 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:49 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:49 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:50 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:50 BootstrapManager - Invoking bootstrap modules
+INFO : 17-11-09 15:20:55 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:20:56 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:20:56 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:20:55 BootstrapManager -   Running  bootstrap: 1. System
+INFO : 17-11-09 15:20:56 BootstrapManager -   Finished bootstrap: 1. System
+INFO : 17-11-09 15:20:56 BootstrapManager -   Running  bootstrap: 2. Freud
+INFO : 17-11-09 15:20:56 BootstrapManager -   Finished bootstrap: 2. Freud
+INFO : 17-11-09 15:20:56 BootstrapManager -   Running  bootstrap: 3. Provision
+INFO : 17-11-09 15:21:01 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:01 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:01 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:05 BootstrapManager -   Finished bootstrap: 3. Provision
+INFO : 17-11-09 15:21:05 BootstrapManager -   Running  bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:01 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:05 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:07 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:14 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:15 BootstrapManager -   Running  bootstrap: 5. Logging
+INFO : 17-11-09 15:21:14 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:15 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:15 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+ERROR : 17-11-09 15:21:15 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:15 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:17 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:18 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:18 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:18 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:21 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:21 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:21 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:22 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:23 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:23 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:25 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:25 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:25 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:25 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:25 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:25 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:25 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:25 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:25 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:26 BootstrapManager -   Finished bootstrap: 4. ConfigurationProvision
+INFO : 17-11-09 15:21:26 BootstrapManager -   Running  bootstrap: 5. Logging
+ERROR : 17-11-09 15:21:26 LoggingBootstrap - If displayed in console - root logger was found - 
+____Verify 'log4j.rootLogger' is commented out in log4j.loggers file.
+INFO : 17-11-09 15:21:26 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:26 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:26 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:27 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:27 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:27 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:27 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:30 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:31 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:31 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:31 system - SystemOption: Application started in PRODUCTION mode.
+SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:47 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:48 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:53 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:53 system - SystemOption: Application started in PRODUCTION mode.
+INFO : 17-11-09 15:21:55 system - SystemOption: System specified as node ID = 4095
+INFO : 17-11-09 15:21:55 system - SystemOption: Application started in PRODUCTION mode.
